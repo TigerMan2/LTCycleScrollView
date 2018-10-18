@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'LTCycleScrollView_Example' do
   pod 'LTCycleScrollView', :path => '../'
+  pod 'SDWebImage'
 
   target 'LTCycleScrollView_Tests' do
     inherit! :search_paths

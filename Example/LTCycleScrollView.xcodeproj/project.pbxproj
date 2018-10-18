@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1779000D47D21BD016502312 /* Pods-LTCycleScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCycleScrollView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTCycleScrollView_Tests/Pods-LTCycleScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E28A3784E6C04320044AC72 /* Pods_LTCycleScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCycleScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F56DF17934ED1CDFD946166 /* LTCycleScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LTCycleScrollView.podspec; path = ../LTCycleScrollView.podspec; sourceTree = "<group>"; };
+		4F56DF17934ED1CDFD946166 /* LTCycleScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LTCycleScrollView.podspec; path = ../LTCycleScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* LTCycleScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTCycleScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +62,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DC29A1AE7EBD6ABB08D0609 /* Pods-LTCycleScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCycleScrollView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTCycleScrollView_Tests/Pods-LTCycleScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		921F8C339344ECF6718BEDA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		94774E3A918C5EDBEB6C5DA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		921F8C339344ECF6718BEDA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		94774E3A918C5EDBEB6C5DA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		990104B9A57AE6AA1B5726DA /* Pods-LTCycleScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCycleScrollView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTCycleScrollView_Example/Pods-LTCycleScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0495F1EAC4D2038453D5D4E /* Pods-LTCycleScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCycleScrollView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTCycleScrollView_Example/Pods-LTCycleScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D44CA12A49DBC70B3CC8D2C0 /* Pods_LTCycleScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCycleScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -299,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LTCycleScrollView_Tests-checkManifestLockResult.txt",
 			);
@@ -321,17 +317,15 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LTCycleScrollView_Example/Pods-LTCycleScrollView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LTCycleScrollView/LTCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -343,15 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LTCycleScrollView_Example-checkManifestLockResult.txt",
 			);

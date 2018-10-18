@@ -1,0 +1,27 @@
+{
+  "name": "LTCycleScrollView",
+  "version": "0.1.0",
+  "summary": "A scrollView with infinite scrolling.",
+  "description": "A scrollView with infinite scrolling to cocoapods support.",
+  "homepage": "https://github.com/codeLuther/LTCycleScrollView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "codeLuther": "1198571320@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/codeLuther/LTCycleScrollView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LTCycleScrollView/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 4.4.2"
+    ]
+  }
+}
