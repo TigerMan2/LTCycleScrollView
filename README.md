@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LTCycleScrollView
 
 [![CI Status](https://img.shields.io/travis/codeLuther/LTCycleScrollView.svg?style=flat)](https://travis-ci.org/codeLuther/LTCycleScrollView)
@@ -27,3 +28,6 @@ codeLuther, 1198571320@qq.com
 ## License
 
 LTCycleScrollView is available under the MIT license. See the LICENSE file for more info.
+=======
+# LTCycleScrollView
+>>>>>>> d8779460f89dc08469a088d0c6426a2ce90490a1
