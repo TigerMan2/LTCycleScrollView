@@ -119,6 +119,11 @@ typedef enum : NSUInteger {
 + (instancetype)lt_cycleScrollViewWithFrame:(CGRect)frame imageNamesGroup:(NSArray *)imageNamesGroup;
 
 /**
+ *  初始化轮播图---网络
+ */
++ (instancetype)lt_cycleScrollViewWithFrame:(CGRect)frame imageURLStringsGroup:(NSArray *)imageURLsGroup;
+
+/**
  *  解决viewWillAppear时出现时轮播图卡在一半的问题，在控制器viewWillAppear时调用此方法
  */
 - (void)adjustWhenControllerViewWillAppera;
